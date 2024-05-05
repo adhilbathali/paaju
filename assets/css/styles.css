@@ -409,7 +409,7 @@ home__img{
 
 }
 @keyframes imgFloat {
-  5%%{
+  50%{
       transform: translateY(65px);
   }
 }
