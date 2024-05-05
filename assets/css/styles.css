@@ -409,11 +409,11 @@ home__img{
 
 }
 @keyframes imgFloat {
-  50%{
+  5%%{
       transform: translateY(65px);
   }
 }
-.imagefloat{
+.imagepaaju{
   animation: imgFloat 5s ease-in-out infinite;
 }
 .about__box{
