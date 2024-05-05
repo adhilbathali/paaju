@@ -408,6 +408,14 @@ home__img{
   margin-bottom: 2rem;
 
 }
+@keyframes imgFloat {
+  50%{
+      transform: translateY(65px);
+  }
+}
+.imagefloat{
+  animation: imgFloat 5s ease-in-out infinite;
+}
 .about__box{
   background-color: var(--container-color);
   border-radius: .75rem;
