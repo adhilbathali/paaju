@@ -415,7 +415,7 @@ home__img{
 }
 @keyframes imgFloat {
   50%{
-      transform: translateY(65px);
+      transform: translateY(50px);
   }
 }
 .imagepaaju{
