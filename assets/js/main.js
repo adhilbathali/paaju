@@ -93,4 +93,11 @@ themeButton.addEventListener('click', () => {
 })
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+var typingEffect = new Typed(".typedText",{
+    strings:["Design","Develop","Deploy"],
+    loop:true,
+    typeSpeed:100,
+    backSpeed:88,
+    backDelay:2000,
+});
 
