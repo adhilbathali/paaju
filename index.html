@@ -443,7 +443,7 @@
                     </div>
                     <div class="contact__content">
                         <h3 class="contact__title">Write us your Project</h3>
-                        <form id="submit-form" action="" class="contact__form">
+                        <form id="POST" action="https://script.google.com/macros/s/AKfycbwZqwxqUuA5y3BDFR4Tk73faGBiyx8pGthia5GxZc4OIbSAvR27O9BhbYnRkbXyDLm3-A/exec" class="contact__form">
                             <div class="contact__form-div">
                                 <label for="fname" class="contact__form-tag">Name</label>
                                 <input type="text" placeholder="Insert your name" id="fname" name="name" class="contact__form-input">
@@ -459,7 +459,7 @@
                                 <textarea class="contact__form-input" name="message" id="subject" cols="30" rows="10" placeholder="Write your project"></textarea>
                             </div>
 
-                            <input type="submit" value="Send" class="button"> 
+                            <a href="https://paaju.com/"><button class="button" ><input type="submit" value="Send" syle="display:none">Send</button></a>
                         </form>
                     </div>
                 </div>
@@ -515,24 +515,5 @@
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
         <!--=============== js typed ===============-->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-       <script> $("#submit-form").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbwZqwxqUuA5y3BDFR4Tk73faGBiyx8pGthia5GxZc4OIbSAvR27O9BhbYnRkbXyDLm3-A/exec",
-                data:$("#submit-form").serialize(),
-                method:"post",
-                success:function (response){
-                    alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error:function (err){
-                    alert("Something Error")
-    
-                }
-            })
-        })
-    </script>
     </body>
 </html>
