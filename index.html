@@ -459,7 +459,7 @@
                                 <textarea class="contact__form-input" name="message" id="subject" cols="30" rows="10" placeholder="Write your project"></textarea>
                             </div>
 
-                            <button class="button" ><input onclick="window.location.href = 'https://paaju.com/';"  type="submit" value="Send" style="display:none">Send</button>
+                            <button class="button" ><input onclick="replaceFunction()"  type="submit" value="Send" style="display:none">Send</button>
                         </form>
                     </div>
                 </div>
@@ -515,5 +515,10 @@
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
         <!--=============== js typed ===============-->
+        <script>
+            function replaceFunction(){
+                windows.location.replace("https://paaju.com/");
+            }
+        </script>
     </body>
 </html>
