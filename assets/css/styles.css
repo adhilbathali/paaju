@@ -321,6 +321,7 @@ body.light-theme{
   margin-block: 20px;
   color: #ffffff;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 8px #2e024b;
 }
 .home__buttons{
   display: flex;
