@@ -297,7 +297,7 @@ home__img{
 }
 .home__handle{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-self: center;
   justify-content: center;
   text-align: center;
