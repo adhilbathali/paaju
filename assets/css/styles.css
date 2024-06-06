@@ -213,7 +213,7 @@ body.light-theme{
   align-items: center;
 }
 .nav__logo{
-  width: 80px;
+  width: 60px;
   margin-top: 18px;
   margin-left: -14px;
   color: var(--first-color);
@@ -745,7 +745,6 @@ visibility: visible;
 @media screen and (max-width:320px){
   .nav__menu{
     padding: 1rem 1.5rem;
-
   }
   .home__buttons{
     flex-direction: column;
@@ -768,7 +767,9 @@ visibility: visible;
     grid-template-columns: 145px;
     justify-content: center;
   }
-  
+  .nav__logo{
+    width: 40px;
+  }
 }
 
 /* For medium devices */
@@ -806,7 +807,9 @@ visibility: visible;
     width: 360px;
     margin: 0 auto;
   }
-  
+  .nav__logo{
+    width: 40px;
+  }
 
 }
 
@@ -815,6 +818,9 @@ visibility: visible;
     grid-template-columns: repeat(2,max-content);
     justify-content: center;
 
+  }
+  .nav__logo{
+    width: 40px;
   }
 }
 
@@ -899,5 +905,8 @@ visibility: visible;
     padding: .4rem;
     border-radius: .5rem;
     
+  }
+  .nav__logo{
+    width: 50px;
   }
 }
